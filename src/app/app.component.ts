@@ -1,8 +1,8 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AsyncPipe, CommonModule, JsonPipe} from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
 import { SelectedCar } from './model/type';
 import { CommonService } from './service/common.service';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import { CommonService } from './service/common.service';
   templateUrl: './app.component.html',
   styleUrl:'./app.component.scss'
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   name = 'Angular';
 
   isStep2Disabled: boolean =true;

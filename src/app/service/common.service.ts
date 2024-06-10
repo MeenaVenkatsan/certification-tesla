@@ -6,7 +6,6 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CommonService {
-
   private SelectedCarBehavior = new BehaviorSubject<SelectedCar>(new SelectedCar());
   SelectedCarObservable:Observable<SelectedCar> = this.SelectedCarBehavior.asObservable();
   SelectedCar(SelectedCar: SelectedCar){
