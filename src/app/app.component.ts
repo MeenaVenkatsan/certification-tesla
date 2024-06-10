@@ -31,7 +31,7 @@ export class AppComponent implements OnInit{
         this.selectedCar=selectedCar;
         this.isStep2Disabled = this.selectedCar.notSelectedModelAndColor();
         this.isStep3Disabled = this.selectedCar.notSelectedConfig();
-        this.imgUrl="assets/images/"+this.selectedCar.model?.code+"/"+this.selectedCar.color?.code+".jpg";
+        this.imgUrl="https://interstate21.com/tesla-app/images/"+this.selectedCar.model?.code+"/"+this.selectedCar.color?.code+".jpg";
       }
     ); 
   }
