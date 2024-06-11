@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { SelectedCar } from '../model/type';
 import { CommonService } from '../service/common.service';
 import { CommonModule } from '@angular/common';
+import { SelectedCar } from '../model/SelectedCar';
 
 @Component({
   selector: 'app-step3',

@@ -1,7 +1,8 @@
 import { inject } from "@angular/core";
 import { CanActivateFn, Router } from "@angular/router";
 import { CommonService } from "../service/common.service";
-import { SelectedCar } from "../model/type";
+import { SelectedCar } from "../model/SelectedCar";
+
 
 export function step3Guard(): CanActivateFn {
     return () => {

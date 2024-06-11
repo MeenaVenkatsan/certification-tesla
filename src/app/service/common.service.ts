@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { SelectedCar } from '../model/type';
+
 import { BehaviorSubject, Observable } from 'rxjs';
+import { SelectedCar } from '../model/SelectedCar';
 
 @Injectable({
   providedIn: 'root'

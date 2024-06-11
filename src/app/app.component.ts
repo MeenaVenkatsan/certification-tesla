@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {AsyncPipe, CommonModule, JsonPipe} from '@angular/common';
-import { SelectedCar } from './model/type';
 import { CommonService } from './service/common.service';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { SelectedCar } from './model/SelectedCar';
 
 @Component({
   selector: 'app-root',

@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { Config, Option, SelectedCar } from '../model/type';
 import { CarDetailsService } from '../service/car-details.service';
 import { CommonService } from '../service/common.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Option } from '../model/Option';
+import { Config } from '../model/Config';
+import { SelectedCar } from '../model/SelectedCar';
 
 @Component({
   selector: 'app-step2',

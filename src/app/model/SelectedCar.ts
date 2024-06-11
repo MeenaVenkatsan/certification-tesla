@@ -1,29 +1,7 @@
-export class Color{
-    code!:string;
-    description!: string;
-    price!: number;
-  
-  }
-  export class Config{
-    id!:number;
-    description!: string;
-    range!: number;
-    speed!: number;
-    price!: number;
-    
-}
-export class Model{
-    code!:string;
-    description!:string;
-    colors!: Color[];
+import { Model } from "./Model";
+import { Color } from "./Color";
+import { Config } from "./Config";
 
-}
-export class Option{
-    configs!:Config[];
-    towHitch!: boolean;
-    yoke!: boolean;
-
-}
 export class SelectedCar{
     
     model?:Model = undefined;

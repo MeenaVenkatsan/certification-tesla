@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Color, Model, SelectedCar } from '../model/type';
 import { CarDetailsService } from '../service/car-details.service';
 import { CommonService } from '../service/common.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Model } from '../model/Model';
+import { Color } from '../model/Color';
+import { SelectedCar } from '../model/SelectedCar';
 
 @Component({
   selector: 'app-step1',
